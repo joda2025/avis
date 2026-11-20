@@ -4,7 +4,7 @@ import feedparser
 
 feedparser.USER_AGENT = "Mozilla/5.0 (compatible; MinAvis/1.0)"
 
-NAME = "Min Avis"
+NAME = "Avis 1"
 TAGLINE = "Dagens nyheter, samlet automatisk"
 PER_FEED = 6
 
