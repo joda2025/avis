@@ -100,4 +100,5 @@ footer{{text-align:center;color:var(--muted);font:.8rem system-ui,sans-serif;pad
 out = pathlib.Path("docs")
 out.mkdir(exist_ok=True)
 (out / "index.html").write_text(page, encoding="utf-8")
+(out / ".nojekyll").write_text("", encoding="utf-8")  # hindrer Jekyll-bygg på GitHub Pages
 print(f"Skrev {len(items)} saker")
