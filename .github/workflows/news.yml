@@ -2,7 +2,7 @@ name: Oppdater avis
 
 on:
   schedule:
-    - cron: "0 5,15 * * *"   # UTC = 07:00 og 17:00 norsk sommertid (06 og 16 om vinteren)
+    - cron: "0 5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 * * *"   # UTC = 07:00 og 17:00 norsk sommertid (06 og 16 om vinteren)
   workflow_dispatch:
   push:
     branches: [main]
